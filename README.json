@@ -1,0 +1,54 @@
+{
+    "nome": "Maria Clara",
+    "idiomas": {
+      "portugues": "Nativo",
+      "ingles": "Intermediário"
+    },
+    "habilidades": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Bootstrap",
+      "Node.js",
+      "Python",
+      "PHP",
+      "MySQL"
+    ],
+    "formacao": {
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "UNOESTE",
+      "anoConclusao": 2025
+    },
+    "interesses": [
+      "Desenvolvimento Web",
+      "Desenvolvimento de Software"
+    ],
+    "certificacoes": [
+      {
+        "nome": "AWS Certified Cloud Practitioner",
+        "instituicao": "Amazon Web Services",
+        "ano": 2023
+      }
+    ],
+    "ferramentas": [
+      "Visual Studio Code",
+      "Putty",
+      "MySQL Workbench",
+      "Postman"
+    ],
+    "hobbies": [
+      "Leitura",
+      "Jardinagem",
+      "Cozinhar",
+      "Desenhar"
+    ],
+    "contato": {
+      "email": "mariaclaragasola@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/maria-clara-gasola-barbosa/",
+      "github": "https://github.com/MariaClaraCA",
+      "whatsapp": "(18) 99816-7843"
+    },
+    "sobre": "Sou uma profissional apaixonada por tecnologia e inovação, sempre em busca de novas oportunidades para expandir meus conhecimentos e contribuir para projetos que façam a diferença. Com um grande interesse em programação, tanto em front-end quanto em back-end, gosto de desenvolver soluções criativas e eficazes que aproveitam o melhor de ambas as áreas."
+  }
+  

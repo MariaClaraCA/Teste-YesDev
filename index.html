@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste para YesDev</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="https://yesdev.com.br/" target="_blank">
+                <img src="imagens/logo.png" alt="Logo" class="logo">
+            </a>
+            
+            <!-- Ícone de menu hambúrguer para dispositivos menores -->
+
+            <div class="menu-toggle" id="mobile-menu">☰</div>
+
+            <!-- Parte da navegação em desktop -->
+
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#ferramentas">Ferramentas</a></li>
+                    <li class="dropdown">
+                        <a href="#segmentos">Segmentos <span class="triangle">&#9660;</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#segmentos">Mecânica Geral</a></li>
+                            <li><a href="#segmentos">Funilaria e Pintura</a></li>
+                            <li><a href="#segmentos">Elétrica Automotiva</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#nossos-parceiros">Nossos Parceiros</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+
+
+            <a href="#" class="btn-demo" id="openDemoModal">Solicitar Demonstração!</a>
+
+            
+        </div>
+    </header>
+
+    <!-- ----------Página Principal------------ -->
+    <main>
+        <section id="home" class="hero fade-in">
+            <div class="container-hero">
+                <div class="hero-text">
+                    <h1>Transforme sua <span>Oficina</span> com<br>Tecnologia de Ponta!</h1>
+                    <p>Soluções integradas para otimizar processos e aumentar a produtividade na sua mecânica.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Controle completo de Agendamentos;</li>
+                        <li><i class="fas fa-check-circle"></i> Módulos completos para sua gestão;</li>
+                        <li><i class="fas fa-check-circle"></i> Não precisa de cartão de crédito.</li>
+                    </ul>
+                </div>
+                <div class="hero-image">
+                    <img src="imagens/mecanico.png" alt="Mecânico">
+                </div>
+                <div class="form-container">
+                    <h2>Experimente <span class="highlight">grátis</span> nosso software</h2>
+                    <form>
+                        <input type="text" placeholder="Nome da mecânica" required>
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="text" placeholder="Número do Whatsapp" required>
+                        <select required>
+                            <option value="" disabled selected hidden>Qual o foco da sua oficina?</option>
+                            <option value="mecanica-geral">Mecânica Geral</option>
+                            <option value="funilaria-pintura">Funilaria e Pintura</option>
+                            <option value="eletrica">Elétrica Automotiva</option>
+                        </select>
+                        
+                        <div class="checkbox-container">
+                            <input type="checkbox" required>
+                            <label>Ao cadastrar-se, você autoriza o tratamento dos seus dados conforme a Lei Geral de Proteção de Dados Pessoais, Lei nº 13.709/2018.</label>
+                        </div>
+                        <button type="submit" class="btn-demo">Solicitar Contato</button>
+                    </form>
+                    <p class="highlight-text">*Totalmente sem compromisso</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Ferramentas -->
+        <section class="section-ferramentas fade-in" id="ferramentas">
+            <div class="ferramentas-container">
+                <div class="ferramentas-title">
+                    <h2><span>FERRAMENTAS</span></h2>
+                </div>
+                <div class="ferramentas-content">
+                    <div class="ferramenta-item">
+                        <h3>Gestão de Agendamentos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                    <div class="ferramenta-item">
+                        <h3>Controle de Estoque</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                    <div class="ferramenta-item">
+                        <h3>Orçamento Automático</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                    <div class="ferramenta-item">
+                        <h3>Histórico de Veículos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                    <div class="ferramenta-item">
+                        <h3>Comunicação com Clientes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                    <div class="ferramenta-item">
+                        <h3>Relatórios e Análises</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut tortor vel leo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Segmentos -->
+        <section id="segmentos" class="segmentos-section fade-in">
+            <div class="segmentos-container">
+                <h2>Segmentos</h2>
+                <p>Explore os diversos segmentos de atuação que oferecemos para otimizar os processos da sua oficina.</p>
+                <div class="segmentos-items">
+                    <div class="segmentos-item">
+                        <img src="imagens/mecanica-geral.png" alt="Mecânica Geral">
+                        <h3>Mecânica Geral</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non purus vitae enim ullamcorper.</p>
+                    </div>
+                    <div class="segmentos-item">
+                        <img src="imagens/funilaria-pintura.png" alt="Funilaria e Pintura">
+                        <h3>Funilaria e Pintura</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non purus vitae enim ullamcorper.</p>
+                    </div>
+                    <div class="segmentos-item">
+                        <img src="imagens/eletrica-automotiva.png" alt="Elétrica Automotiva">
+                        <h3>Elétrica Automotiva</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non purus vitae enim ullamcorper.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Parceiros -->
+        <section id="nossos-parceiros" class="parceiros-section fade-in">
+            <div class="parceiros-container">
+                <h2>Nossos Parceiros</h2>
+                <div class="parceiros-logos">
+                    <img src="imagens/parceiro1.png" alt="Parceiro 1">
+                    <img src="imagens/parceiro2.png" alt="Parceiro 2">
+                    <img src="imagens/parceiro3.png" alt="Parceiro 3">
+                    <img src="imagens/parceiro4.png" alt="Parceiro 4">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Blog -->
+        <section id="blog" class="blog-section fade-in">
+            <div class="blog-container">
+                <h2>Dê uma Visita no Nosso Blog</h2>
+                <a href="https://yesdev.com.br/" class="blog-link" target="_blank"><u>Visitar Blog</u></a>
+            </div>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="footer-section">
+            <div class="newsletter-section">
+                <h2>Se inscreva e fique por dentro de nossas novidades</h2>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="seuemail@exemplo.com" required>
+                    <button type="submit" class="subscribe-btn">Inscrever-se</button>
+                </form>
+
+                    <!-- Mensagem de sucesso ao clicar -->
+                <p id="success-message" class="success-message" style="display: none;">Inscrição realizada com Sucesso!</p>
+
+            </div>
+            <div class="footer-content">
+
+                <div class="footer-logo">
+                    <a href="https://yesdev.com.br/" target="_blank">
+                        <img src="imagens/logo-footer.png" alt="Logo" class="logo">
+                    </a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#ferramentas">Ferramentas</a></li>
+                        <li><a href="#segmentos">Segmentos</a></li>
+                        <li><a href="#nossos-parceiros">Parceiros</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Suporte</h3>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Informações de contato</h3>
+                    <p>Email: mecanica@exemplo.com.br</p>
+                    <p>Whatsapp: (16) 9923 - 94567</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/yesdevtecnologia?locale=pt_BR" target="_blank"><i class="fab fa-facebook"></i></a>
+                        
+                        <a href="https://www.instagram.com/yesdevtecnologia/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        
+                        <a href="https://www.linkedin.com/company/yesdevtecnologia/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Copyright ©2024 MecanicaTeste. Designed by Exemplo</p>
+            </div>
+        </footer>
+
+<!-- Modal para a Confirmação -->
+<div id="successModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <p>Entraremos em contato em breve!</p>
+    </div>
+</div>
+
+
+<!-- Modal para o botão de Solicitação de Demonstração -->
+
+<div id="demoModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Solicitar Demonstração</h2>
+        <form id="demoForm">
+            <input type="text" id="demoNome" placeholder="Seu Nome" required>
+            <input type="email" id="demoEmail" placeholder="Seu Email" required>
+            <input type="text" id="demoTelefone" placeholder="Número de Telefone" required>
+            <button type="submit" class="submit-btn">Enviar</button>
+
+            <!-- Mensagem de sucesso que vai aparecer -->
+            <p id="demoSuccessMessage" class="success-message" style="display: none;">Agradecemos seu interesse! A demonstração chegará através do seu e-mail!</p>
+        </form>
+    </div>
+</div>
+
+
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        const menuToggle = document.getElementById('mobile-menu');
+        const navMenu = document.querySelector('.nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
